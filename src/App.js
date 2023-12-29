@@ -26,7 +26,7 @@ const App = () => {
 
   return (
     <div className="body1">
-      <h1 className="parag1">Sorteio dos Times</h1>
+      <h1 className="parag1">Sorteio dos Times </h1>
       <div>
         <label className="label">
           <textarea
