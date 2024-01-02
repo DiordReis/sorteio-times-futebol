@@ -14,7 +14,7 @@ const App = () => {
     const playerList = jogadores.split("\n").map((player) => player.trim());
     const shuffledjogadores = [...playerList].sort(() => Math.random() - 0.5);
 
-    const numDeTimes = Math.ceil(shuffledjogadores.length / 5);
+    const numDeTimes = Math.ceil(shuffledjogadores.length / 6);
     const newtimes = Array.from({ length: numDeTimes }, (_, index) => {
       const startIndex = index * 6;
       const endIndex = startIndex + 6;
